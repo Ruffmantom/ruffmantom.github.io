@@ -6,6 +6,8 @@ html {
 
 body {
     width: 100%;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -81,12 +83,14 @@ a:hover{
 
 /* Main section styles ---------------------------------------------------------- */
 
-
 .main-sec{
-    margin: auto;
+    margin: 100px auto;
+    /* margin-right: auto;
+    margin-left: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 100px; */
     max-width: 960px;
+    width: 960px;
     height: auto;
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -211,6 +215,7 @@ a:hover{
 
 /* footer styling ---------------------------------------------------------- */
 .footer{
+    margin-top: auto;
     text-align: center;
     /* position: fixed; */
     bottom: 0;
