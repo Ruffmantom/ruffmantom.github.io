@@ -1,10 +1,12 @@
 html {
     background-image: url("/recources/images/white-waves.png");
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 
 body {
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
