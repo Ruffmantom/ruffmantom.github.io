@@ -1,0 +1,165 @@
+html {
+    background-image: url("/recources/images/white-waves.png");
+}
+
+body {
+    width: 100%;
+    
+}
+
+/* Main Header styling */
+header {
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    height: 75px;
+    background-color:#ffffff;
+    top: 0;
+    border: 1px solid black; 
+    overflow: hidden;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+.nav-bar { 
+    height: 100%;
+    margin: 0 auto;
+    width: 960px;
+    /* border: 1px solid blue; */
+    /* display: flex;
+    align-items: center; */
+    
+}
+
+#logo-nav { 
+    height: 100%;
+    width: 20%;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    /* border: 1px solid red; */
+    float: left;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 17px; 
+}
+
+
+#nav {
+    margin-top: 25px;
+    float: right;
+    /* border: 1px solid green; */
+    
+    
+}
+#border-left{
+    padding-left: 20px;
+    border-left: 2px solid #77777735;
+}
+#border-right{
+    border-right: 2px solid #77777735;
+    padding-right: 20px;
+}
+
+#nav, li{
+    padding: 5px 0;
+    margin-left: 20px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+a:hover{
+    color:#4aaaa5;
+}
+
+
+/* Main section styles  */
+
+
+.main-sec{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 960px;
+    height: auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    /* padding: 20px; */
+}
+
+.inside-sec{
+    width: 90%;
+    margin: 20px auto;
+    /* border: 1px solid green; */
+}
+
+.title{
+    color: #4aaaa5;
+    font-size: 35px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+    border-bottom: 2px solid #77777735 ;
+
+}
+
+/* home page styling */
+.my-profile {
+    position: relative;
+    line-height: 30px;
+}
+
+#profile-img{
+    width: 17%;
+    float: left;
+    margin: 0 20px 15px 0;
+}
+
+/* Contact page styling */
+.enter{
+    margin-bottom: 20px;
+}
+.input{
+    margin-bottom: 20px;
+    
+}
+.in-name{
+    width: 40%;
+}
+.in-email{
+    width: 40%;
+    
+}
+.in-text{
+    width: 40%;
+    height: 40px;
+}
+
+
+
+/* gallery page styling */
+
+
+
+/* footer styling */
+.footer{
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+    background-color: #666666;
+    color: #ffffff;
+    height: 60px;
+    border-top: 5px solid #4aaaa5;
+}
+
+.footer p{ 
+    margin-top: 20px;
+}
