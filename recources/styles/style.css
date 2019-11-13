@@ -162,6 +162,7 @@ a:hover{
     width: 60%;
     height: 520px;
     /* border: 1px solid red; */
+    overflow: hidden;
 }
 
 .gal{
